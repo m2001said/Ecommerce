@@ -3,6 +3,8 @@ import { toast } from "react-hot-toast";
 
 const Context = createContext();
 
+// const cartItemsFromLocalStorage = JSON.parse(localStorage.getItem("CartItems"));
+
 export const StateContext = ({ children }) => {
   const [showCart, setShowCart] = useState(false);
   const [cartItems, setCartItems] = useState([]);
@@ -12,6 +14,20 @@ export const StateContext = ({ children }) => {
   //
   let foundProduct;
   let index;
+
+  // useEffect(() => {
+  //   const findingItemsInLocalStorage = JSON.parse(
+  //     localStorage.getItem("CartItems")
+  //   );
+  //   if (findingItemsInLocalStorage) {
+  //     setCartItems(findingItemsInLocalStorage);
+  //   }
+  // }, []);
+  // adding to localStorage
+  // useEffect(() => {
+  //   localStorage.setItem("CartItems", JSON.stringify(cartItems));
+  // }, [cartItems]);
+
   // add function
   const onAdd = (product, quantity) => {
     const checkProductInCart = cartItems.find(
