@@ -1,34 +1,22 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Best Store : An Ecommerce App:
+This is a full stack project with Sanity and nextjs (by Javascript Mastery on youtube)
+- With Sanity,you can update any item in the page without coding , only by the website of Sanity you will able to see every product and you can modify it eaisly.
+-I use Stripe for payment
 
-## Getting Started
+## 1- Home page , and all of its content dynamic so you can change it with Sanity  :
+![banner](https://user-images.githubusercontent.com/91760639/199187778-2dd781dd-9ef8-443a-929c-4b76f25a2e86.jpg)
 
-First, run the development server:
+## 2- Products :
+![products](https://user-images.githubusercontent.com/91760639/199188087-26381948-ba06-4de7-a577-593d125a37d5.jpg)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## 3- Product page:
+![product page](https://user-images.githubusercontent.com/91760639/199188144-7faea66c-6c04-463e-916d-6284467cc4c2.jpg)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 4-adding to cart and Buy them :
+![cart ](https://user-images.githubusercontent.com/91760639/199188200-00ac359a-0bf0-4da6-bcb9-62c19ed5385c.jpg)
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## 5- Stripe page :
+![stripe](https://user-images.githubusercontent.com/91760639/199188278-6242b7aa-b9f7-4f7c-86a2-ca4f13b2beeb.jpg)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 6- Succes page  :
+![succes page](https://user-images.githubusercontent.com/91760639/199188458-3b64da8e-047c-4b65-9d4b-78ef7271de81.jpg)
