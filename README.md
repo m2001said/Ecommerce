@@ -1,4 +1,4 @@
-# Best Store : An Ecommerce App:
+# Best Store : An Ecommerce App: [liveDemo](https://ecommerce-one-chi.vercel.app/)
 
 This is a full stack project with Sanity and nextjs (by Javascript Mastery on youtube)
 
